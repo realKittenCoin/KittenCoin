@@ -1,0 +1,2 @@
+# KittenCoin
+Kitten Coin contracts
