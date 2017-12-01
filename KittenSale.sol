@@ -14,7 +14,7 @@ contract KittenSale {
     uint256 public kittensRemainingForSale;
     
     function KittenSale () {
-        address c = 0xb38953f7c19bb3fbe54898637e3689081bd3f7a7; // set Kitten Coin contract address
+        address c = 0xac2BD14654BBf22F9d8f20c7b3a70e376d3436B4; // set Kitten Coin contract address
         _kittenContract = KittenCoin(c); 
         _kittenOwner = msg.sender;
         totalContributions = 0;
